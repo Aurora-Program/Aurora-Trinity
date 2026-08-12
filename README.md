@@ -29,6 +29,9 @@ ctest --test-dir build --output-on-failure
 - [Contratos de resolución](docs/RESOLUTION_CONTRACT.md)
 - [Project Genesis](genesis/README.md)
 - [Historial de Aurora V1](Especificaciones%20Modelo%20aurora.md)
+- [Notas de la release 0.1.0](docs/RELEASE.md)
+
+![CI](https://github.com/Aurora-Program/Aurora-Trinity/actions/workflows/ci.yml/badge.svg)
 
 ## Compatibilidad
 

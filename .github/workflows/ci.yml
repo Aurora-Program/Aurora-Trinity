@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-and-consume:
+    name: Build and consume (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure
+        run: cmake -S . -B build -DBUILD_TESTING=ON -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build --config Release
+
+      - name: Test
+        run: ctest --test-dir build --config Release --output-on-failure
+
+      - name: Install
+        run: cmake --install build --config Release --prefix "$PWD/install"
+
+      - name: Configure consumer
+        run: cmake -S tests/consumer -B consumer-build -DCMAKE_PREFIX_PATH="$PWD/install" -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build consumer
+        run: cmake --build consumer-build --config Release
+
+      - name: Run consumer
+        shell: bash
+        run: |
+          if [[ "$RUNNER_OS" == "Windows" ]]; then
+            ./consumer-build/Release/trinity_consumer.exe
+          else
+            ./consumer-build/trinity_consumer
+          fi
