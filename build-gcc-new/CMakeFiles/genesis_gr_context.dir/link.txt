@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\genesis_gr_context.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\genesis_gr_context.dir/objects.a @CMakeFiles\genesis_gr_context.dir\objects1.rsp
-C:\msys64\mingw64\bin\cc.exe -g -Wl,--whole-archive CMakeFiles\genesis_gr_context.dir/objects.a -Wl,--no-whole-archive -o genesis_gr_context.exe -Wl,--out-implib,libgenesis_gr_context.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\genesis_gr_context.dir\linkLibs.rsp

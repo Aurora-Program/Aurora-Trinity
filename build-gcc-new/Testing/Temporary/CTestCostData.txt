@@ -1,4 +1,0 @@
-trinity_exhaustive 5 0.397998
-genesis_random_origin 5 0.22978
-genesis_education 5 0.0438356
----

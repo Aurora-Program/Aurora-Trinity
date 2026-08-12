@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\genesis_self_organization.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\genesis_self_organization.dir/objects.a @CMakeFiles\genesis_self_organization.dir\objects1.rsp
-C:\msys64\mingw64\bin\cc.exe -g -Wl,--whole-archive CMakeFiles\genesis_self_organization.dir/objects.a -Wl,--no-whole-archive -o genesis_self_organization.exe -Wl,--out-implib,libgenesis_self_organization.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\genesis_self_organization.dir\linkLibs.rsp
