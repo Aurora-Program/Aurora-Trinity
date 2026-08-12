@@ -7,6 +7,7 @@
   diccionario, traducción y persistencia transaccional.
 - Incluye Project Genesis como módulo experimental separado.
 - Añade pruebas exhaustivas del núcleo y pruebas deterministas de Genesis.
+- Incluye una receta experimental para empaquetado con Conan 2.
 - El snapshot de esta versión es binario y depende de la misma ABI de
   compilación.
 

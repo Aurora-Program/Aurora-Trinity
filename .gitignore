@@ -5,3 +5,4 @@
 *.exe
 *.obj
 *.lib
+__pycache__/

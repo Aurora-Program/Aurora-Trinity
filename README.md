@@ -37,6 +37,12 @@ La API pública usa el prefijo `aurora_` y se incluye mediante
 son compatibles con la misma versión y ABI de compilación; no deben tratarse
 como un formato portable entre compiladores o arquitecturas.
 
+## Conan
+
+La receta experimental para Conan 2 está en `conanfile.py`. Las instrucciones
+para probarla y proponerla a ConanCenter están en
+`docs/PUBLISHING_CONAN.md`.
+
 ## Licencia
 
 Consulta [LICENSE](LICENSE) para el alcance de las licencias de código y
