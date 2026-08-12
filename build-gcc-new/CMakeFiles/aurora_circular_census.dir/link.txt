@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\aurora_circular_census.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\aurora_circular_census.dir/objects.a @CMakeFiles\aurora_circular_census.dir\objects1.rsp
+C:\msys64\mingw64\bin\cc.exe -g -Wl,--whole-archive CMakeFiles\aurora_circular_census.dir/objects.a -Wl,--no-whole-archive -o aurora_circular_census.exe -Wl,--out-implib,libaurora_circular_census.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\aurora_circular_census.dir\linkLibs.rsp

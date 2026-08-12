@@ -1,0 +1,6 @@
+/build/
+/build-gcc/
+/build-consumer/
+*.exe
+*.obj
+*.lib

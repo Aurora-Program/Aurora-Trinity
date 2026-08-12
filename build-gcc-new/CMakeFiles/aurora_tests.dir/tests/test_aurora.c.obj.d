@@ -1,0 +1,42 @@
+CMakeFiles/aurora_tests.dir/tests/test_aurora.c.obj: \
+ C:\Users\p_m_a\Aurora\Modelo\ Aurora\tests\test_aurora.c \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/trinity/trinity.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/bootstrap.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/so.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/operation.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/network.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/trigate.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/domain.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/crtdefs.h \
+ C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
+ C:/msys64/mingw64/include/_mingw_mac.h \
+ C:/msys64/mingw64/include/_mingw_secapi.h \
+ C:/msys64/mingw64/include/vadefs.h \
+ C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+ C:/msys64/mingw64/include/stdint.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/ordering.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/circular.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/dictionary.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/executive.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/tensor.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/window.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/persistence.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/sequence.h \
+ C:/Users/p_m_a/Aurora/MODELO~1/include/aurora/translation.h \
+ C:/msys64/mingw64/include/stdio.h \
+ C:/msys64/mingw64/include/corecrt_stdio_config.h \
+ C:/msys64/mingw64/include/_mingw_off_t.h \
+ C:/msys64/mingw64/include/swprintf.inl \
+ C:/msys64/mingw64/include/sec_api/stdio_s.h \
+ C:/msys64/mingw64/include/stdlib.h \
+ C:/msys64/mingw64/include/corecrt_wstdlib.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ C:/msys64/mingw64/include/limits.h \
+ C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw64/include/malloc.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ C:/msys64/mingw64/include/errno.h

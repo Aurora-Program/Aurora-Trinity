@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libgenesis.a CMakeFiles/genesis.dir/genesis/src/tensor117.c.obj CMakeFiles/genesis.dir/genesis/src/random_origin.c.obj CMakeFiles/genesis.dir/genesis/src/benchmark.c.obj CMakeFiles/genesis.dir/genesis/src/education.c.obj CMakeFiles/genesis.dir/genesis/src/curriculum.c.obj CMakeFiles/genesis.dir/genesis/src/ablation.c.obj CMakeFiles/genesis.dir/genesis/src/self_organization.c.obj
+C:\msys64\mingw64\bin\ranlib.exe libgenesis.a
