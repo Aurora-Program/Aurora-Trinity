@@ -96,9 +96,10 @@ install(FILES
 )
 
 include(CTest)
-add_executable(aurora_circular_census examples/circular_census.c)
-target_link_libraries(aurora_circular_census PRIVATE Trinity::trinity)
 if(BUILD_TESTING)
+    add_executable(aurora_circular_census examples/circular_census.c)
+    target_link_libraries(aurora_circular_census PRIVATE Trinity::trinity)
+
     add_executable(aurora_tests tests/test_aurora.c)
     target_link_libraries(aurora_tests PRIVATE Trinity::trinity)
     if(MSVC)

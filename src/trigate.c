@@ -102,6 +102,12 @@ aurora_trigate_packet aurora_trigate_order_packet_at_phase(
         }
     }
 
+    /*
+     * Caso residual (2,2,2): la tripleta cerrada en 2 conserva las tres rutas
+     * de lectura, incluida la posición 2 que la regla general descarta por
+     * autorreferencia. Es deliberado: al no existir testigo legible sin
+     * autorreferencia, la ventana permanece abierta con O=2.
+     */
     if (a == AURORA_DOMAIN_2 && b == AURORA_DOMAIN_2 &&
         mode == AURORA_DOMAIN_2) {
         packet.o_candidates = AURORA_DOMAIN_ALL;

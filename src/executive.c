@@ -50,7 +50,7 @@ aurora_domain aurora_harmonize_face(const aurora_domain face[3],
     if (*distance == SIZE_MAX) {
         return AURORA_DOMAIN_0;
     }
-    (void)near;
+    (void)near; /* Umbral reservado: todavía no modifica la clasificación. */
     if (exact_target(face, target)) return AURORA_DOMAIN_0;
     if (*distance == 0u) return AURORA_DOMAIN_2;
     return AURORA_DOMAIN_1;

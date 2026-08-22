@@ -1,5 +1,17 @@
 # Changelog
 
+## Sin publicar
+
+- Mueve `aurora_circular_census` dentro de `BUILD_TESTING`, de modo que la
+  biblioteca se configure sin necesitar las fuentes de ejemplos.
+- Fija `BUILD_TESTING=OFF` en la receta Conan; el recipe solo necesita
+  `CMakeLists.txt`, `cmake/`, `include/`, `src/` y `genesis/` para construir
+  e instalar las bibliotecas.
+- Elimina los borradores residuales `README-new.md` y `Licenses-new.md`;
+  `README.md` y `LICENSE` son los canónicos.
+- Documenta explícitamente el caso residual `(2,2,2)` en `trigate.c` y el
+  estado todavía inerte de los umbrales del armonizador en `executive.h`.
+
 ## 0.1.0 - Pre-release
 
 - Publica el núcleo Trinity como biblioteca C11 con integración CMake.

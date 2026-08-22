@@ -21,7 +21,9 @@ class TrinityConan(ConanFile):
 
     def build(self):
         cmake = CMake(self)
-        cmake.configure()
+        # El paquete solo construye e instala las bibliotecas; las pruebas y
+        # los ejemplos no se exportan como fuentes del recipe.
+        cmake.configure(variables={"BUILD_TESTING": "OFF"})
         cmake.build()
 
     def package(self):

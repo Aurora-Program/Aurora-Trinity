@@ -4,6 +4,12 @@
 #include "aurora/so.h"
 
 typedef struct {
+    /*
+     * Umbrales declarados por contrato (near_ds, near_de, near_do). Hoy no
+     * alteran el resultado de aurora_harmonize_face, que clasifica cierre
+     * exacto (0), distancia no nula (1) y apertura (2). Quedan reservados
+     * para una futura calibración de cercanía.
+     */
     size_t near_ds;
     size_t near_de;
     size_t near_do;
